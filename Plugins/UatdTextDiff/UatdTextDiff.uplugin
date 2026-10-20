@@ -1,0 +1,15 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UATD Class Defaults Export",
+	"Description": "Supplemental class-default-object text export for the UnrealAssetTextDiff tool. Provides the UatdDiffAssets commandlet, which wraps the built-in DiffAssets commandlet and additionally dumps each compared revision's Blueprint generated-class defaults.",
+	"Category": "Editor",
+	"Modules": [
+		{
+			"Name": "UatdTextDiff",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
